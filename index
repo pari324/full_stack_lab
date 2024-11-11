@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Regestration Form</h1>
+    <form action="backend.js">
+        <fieldset>
+            <legend>
+                Personal detail
+            </legend>
+        <div>
+            <label for=":name">First Name:</label>
+            <input type="text"placeholder="enter first name "id="name"/>
+        </div>
+        <div>
+            <label for=":name">Last Name:</label>
+            <input type="text"placeholder="enter last name "id="name"/>
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number"placeholder="enter your age"id="age"/>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email"placeholder="Enter Email Address"id="email"/>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password"id="password"/>
+        </div>
+        <div>
+        <label for="gender">Gender:</label>
+        <br>Male
+        <input type="radio" id="gender" name="ab"/>
+        <br>Female
+        <input type="radio" id="gender" name="ab"/>
+        <br>Other
+        <input type="radio" id="gender" name="ab"/>
+        </div>
+        <div>
+            <label for="Preferences">Preferences:</label>
+            <br>Acrylic painting
+            <input type="checkbox" id="Preferences" name="bc"/>
+            <br>Oil painting
+            <input type="checkbox" id="Preferences" name="bc"/>
+            <br>Water Color painting
+            <input type="checkbox" id="Preferences" name="bc"/>
+        </div>
+        <div>
+            <label for="option">Select Occupation</label>
+            <select>
+                <option value="">student</option>
+                <option value="">teacher</option>
+                <option value="">admin</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Bio</label>
+            <textarea name="" id="" cols="20" rows="20"></textarea>
+        </div>
+        <button type="">submit</button>
+        <button type="">reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
